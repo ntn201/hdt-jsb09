@@ -1,0 +1,22 @@
+/* external */
+/* CSS Selector */
+
+/* Select by id */
+#title_1{
+    color: red
+}
+
+
+#title_2{
+    color:blue
+}
+
+/* Select by tag name */
+h1{
+    font-size: 50px;
+}
+
+/* Select by class name */
+.background-pink{
+    background-color: pink;
+}
