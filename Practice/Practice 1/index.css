@@ -38,11 +38,10 @@ nav{
 }
 
 #page{
-    background-color: aqua;
     width: 100%;
-    flex-grow: 1;
     display: flex;
     flex-flow: row;
+    flex-grow: 1;
 }
 
 #side-bar{
@@ -51,10 +50,71 @@ nav{
     height: 100%;
     display: flex;
     flex-flow: column;
+    border-right: 5px solid black;
+}
+
+.item-category{
+    font-size: 38px;
+    margin-top:40px;
+    margin-left:80px
 }
 
 #container{
-    background-color: yellow;
     width: 82%;
     height: 100%;
+    display: flex;
+    flex-flow: column;
+    align-items: center;
+
+}
+
+#intro{
+    font-size: 46px;
+    font-family: monospace;
+    margin-top: 80px;
+}
+
+#shop{
+    width: 100%;
+    height: 700px;
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.item{
+    background-color: pink;
+    width: 300px;
+    height: 500px;
+    display: flex;
+    flex-flow: column;
+}
+
+.item-image{
+    width: 100%;
+    height: 75%;
+    background-color: royalblue;
+}
+
+.item-description{
+    display: flex;
+    flex-flow: row;
+    justify-content: space-around;
+    padding-top: 25px;
+}
+.item-name{
+    font-size: 30px;
+    margin-left: 30px;
+}
+
+.item-buy-button{
+    width: 140px;
+    height: 80px;
+    font-size: 30px;
+    background-color: #d63031;
+    color: white;
+    border-radius: 8px;
+    border: 2px solid white;
+    font-family: "fantasy";
 }
